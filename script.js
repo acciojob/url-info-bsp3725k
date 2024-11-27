@@ -3,4 +3,4 @@ function UrlLength() {
 	const url = location.href;
 	return url.length;
 }
-alert(UrlLength());
+alert(`The length of the URL is: ${UrlLength()}`);
